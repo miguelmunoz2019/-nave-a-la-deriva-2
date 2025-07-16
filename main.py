@@ -7,6 +7,7 @@ app = FastAPI()
 
 # Diccionario simulado de datos de saturación (presión en MPa)
 saturation_data = {
+    0: {"specific_volume_liquid": 0.001000, "specific_volume_vapor": 10.000},
     1: {"specific_volume_liquid": 0.001043, "specific_volume_vapor": 1.6941},
     2: {"specific_volume_liquid": 0.001061, "specific_volume_vapor": 0.8857},
     3: {"specific_volume_liquid": 0.001072, "specific_volume_vapor": 0.5950},
